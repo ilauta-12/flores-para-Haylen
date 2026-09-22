@@ -301,7 +301,7 @@ body {
 .bouquet-photo {
     background: white;
     border-radius: 16px;
-    padding: 2rem 3rem;
+    padding: 0.5rem;
     box-shadow: var(--shadow-soft);
     border: 2px dashed rgba(218, 165, 32, 0.3);
     text-align: center;
@@ -309,6 +309,15 @@ body {
     position: relative;
     z-index: 2;
     min-width: 180px;
+    max-width: 220px;
+    overflow: hidden;
+}
+
+.photo-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
 }
 
 .bouquet-stem {
